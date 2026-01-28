@@ -1,0 +1,14 @@
+Welcome to the hku.one wiki!
+
+<img src="favicon.ico" alt="drawing" width="100"/>
+
+This wiki aims to become a decentralized platform for and by HKU students to find communities, events and other handy resources. We say decentralized, but it isn't *really*, see [[decentralized]]. All pages are here are gathered and written by students of HKU. If you want to contribute as well, see [[contributing]].
+
+* [[communities]] - various communities in and around HKU
+* [[events]] - fun events poster wall
+* [[hku_support_initiatives]] - support systems initiated by the institution of HKU
+* [[open_calls]] - various open calls for and by HKU students
+* [[student_tips_and_tricks]] - tips & tricks by HKU students
+* [[places_and_spaces]] - places & spaces in and around HKU
+
+Want to contribute to the wiki? See [[contributing]]. Also see [[roadmap]].

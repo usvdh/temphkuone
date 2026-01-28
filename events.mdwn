@@ -1,0 +1,50 @@
+# Upcoming events
+
+<script>
+    const repo = "usvdh/hku.one.photos";  // Your GitHub repo
+    const path = "events"; // Root path or specific folder
+    const apiUrl = `https://api.github.com/repos/${repo}/contents/${path}`;
+
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`GitHub API error: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            let upcomingContainer = document.getElementById("upcoming-events");
+            let pastContainer = document.getElementById("past-events");
+
+            let today = new Date();
+            today.setHours(0, 0, 0, 0);  // Normalize time for comparison
+
+            data.forEach(file => {
+                if (file.type === "file" && file.name.match(/^\d{4}-\d{2}-\d{2}-.+\.(jpg|png|gif)$/i)) {
+                    let dateString = file.name.substring(0, 10); // Extract "YYYY-MM-DD"
+                    let eventDate = new Date(dateString);
+                    
+                    let imgElement = document.createElement("img");
+                    imgElement.src = file.download_url;
+                    imgElement.width = 300;
+
+                    if (eventDate >= today) {
+                        // Upcoming event
+                        upcomingContainer.appendChild(imgElement);
+                    } else {
+                        // Past event
+                        pastContainer.appendChild(imgElement);
+                    }
+                }
+            });
+        })
+        .catch(error => console.error("Error fetching images:", error));
+</script>
+
+<div id="upcoming-events"></div>
+
+# Past events
+
+<div id="past-events"></div>
+
+Add posters to this page by uploading photos to the [hku.one.photos](https://github.com/usvdh/hku.one.photos) GitHub repository, according to the README instructions.

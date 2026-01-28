@@ -1,0 +1,4 @@
+# Roadmap
+
+* Move to dynamic host to allow editing of pages from the web browser. - currently, the barrier to contribute is extremely high. Find funds to move to dynamic hosting. (Wow perhaps this is done now?)
+* Make 'events' page dynamic so that most recent and upcoming events are automatically shown.

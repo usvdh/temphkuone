@@ -1,0 +1,31 @@
+Want to contribute to the wiki by editing and making pages? Great! 
+
+# Making an account
+
+To contribute to the hku.one wiki, you will need to create an account first. 
+
+To do so, click on 'edit' on any page > password > fill in a username and password > register. At the moment, 'email' and 'openid' don't work as login options.
+
+Now you can go to any page and edit its contents!
+
+# Editing a page
+
+Coming soon.
+
+# Making a new page
+
+This is a bit complicated so hang on. To create a new page, first go to the page where you want it to be linked. For example, if you want to add a community to the 'communities' page, go there. Then edit the page and create a new entry. Save your changes.
+
+Now your new entry should show up like this:
+
+ <img src="https://raw.githubusercontent.com/usvdh/hku.one.photos/refs/heads/main/makingnewpage.png" alt="example" width="200" style="border: 5px solid #000;" /> 
+
+Click on the question mark and you will be taken to the page creation page. Because we are adding a page for a new community, we want it to end up in the 'communities' folder:
+
+ <img src="https://raw.githubusercontent.com/usvdh/hku.one.photos/refs/heads/main/makingnewpage2.png" alt="example" width="300" style="border: 5px solid #000;" /> 
+
+Then edit the page as usual. See [[ikiwiki/formatting/]] for formatting help. 
+
+# Alternatives
+
+Alternatively, you can reach me at quavers.31-fringe@icloud.com with the changes you want made, and I will reflect the changes on this end.

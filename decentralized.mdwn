@@ -1,0 +1,10 @@
+This wiki aims to become a decentralized platform for and by HKU students to find communities, events and other handy resources. However, the wiki isn't actually decentralized at all. 
+
+* Decentralization or decentralisation is the process by which the activities of an organization, particularly those related to planning and decision-making, are distributed or delegated away from a central, authoritative location or group and given to smaller factions within it.[1](https://en.wikipedia.org/wiki/Decentralization)
+* A wiki is a form of hypertext publication on the internet which is collaboratively edited and managed by its audience directly through a web browser. A typical wiki contains multiple pages that can either be edited by the public or limited to use within an organization for maintaining its internal knowledge base.[2](https://en.wikipedia.org/wiki/Wiki)
+
+This means that hku.one is simply just a wiki; a form of collaborative knowledge and management. It isn't decentralized in the sense that it is still managed by certain people, particularly the hosting of the site and management of socials. However, we chose to deliberately use this term because:
+
+* It conveys what we want to communicate to a broader audience; everything on the site is still a collective effort, and most importantly, independent from the institute of HKU.
+
+Similarly, the end goal is still to be as decentralized as possible. hku.one is managed by a group of students representing a broad range of HKU schools. We are open to anyone and everyone wanting participating in the future of hku.one. 
